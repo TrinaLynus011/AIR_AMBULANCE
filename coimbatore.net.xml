@@ -1,0 +1,10 @@
+netconvert \
+  --osm-files planet_76.708,10.848_77.218,11.156.osm \
+  --output-file coimbatore.net.xml \
+  --remove-geometry \
+  --guess-ramps \
+  --join-junctions \
+  --guess-signals \
+  --discard-simple-tls \
+  --tls-join \
+  --default.tls-type actuated

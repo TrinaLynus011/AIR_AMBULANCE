@@ -1,0 +1,6 @@
+python $SUMO_HOME/tools/randomTrips.py \
+  -n coimbatore.net.xml \
+  -o coimbatore.trips.xml \
+  -r coimbatore.rou.xml \
+  -e 3600 \
+  -p 5
